@@ -1,4 +1,4 @@
-# Clean Desk Bot 🧹
+# Clean Desk Bot v1🧹
 
 **Clean Desk Bot** is a Python automation script that organizes files in a folder by file type. It scans a target directory, detects file extensions, creates subfolders (like `PDF_FILES/`, `JPG_FILES/`, etc.), and moves each file into its appropriate folder.
 
