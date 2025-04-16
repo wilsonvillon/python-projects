@@ -1,38 +1,40 @@
-# Imports
-import os
-import shutil
-
-
-# Functions
-def list_files(folder_path):
-    return os.listdir(folder_path)
-
 """
-Clean Desk Bot
+Clean Desk Bot v1
 
-This script scans a specified folder, detects file types by their extensions,
-creates organized subfolders (e.g., 'PDF_FILES', 'JPG_FILES'), and moves the
-corresponding files into their respective folders.
+This script organizes files in a specified folder by detecting file extensions
+and creating subfolders named after those extensions (e.g., 'PDF_FILES', 'JPG_FILES').
 
-Useful for cleaning up download folders, project workspaces, or any cluttered
-directory with mixed file types.
+Each file is moved into its corresponding extension-based folder. Useful for 
+basic organization of mixed file types in a single directory.
 
-Modules used:
-- os: For file and directory operations
-- shutil: For moving files
+Usage:
+- Place your files into the "test_folder" or any target folder
+- Run the script to organize files by file type
 
 Author: Wilson Villon
 """
 
 
+# Imports
+import os
+import shutil
+
+
+# Returns a list of all items in the folder (files and folders)
+def list_files(folder_path):
+    return os.listdir(folder_path)
+
+
+# Extracts the file extension from a given filename (e.g., '.jpg')
 def get_extension(filename):
     return os.path.splitext(filename)[1]
 
 
+# Moves a file into a subfolder named after its extension
 def move_file_to_subfolder(file_path, destination_folder):
     extension = get_extension(file_path)
 
-    # Remove the dot from extension for folder naming
+    # Format subfolder name: remove dot and add suffix (e.g., 'PDF_FILES')
     ext_folder = extension[1:].upper() + "_FILES"
     destination_path = os.path.join(destination_folder, ext_folder)
 
@@ -45,13 +47,11 @@ def move_file_to_subfolder(file_path, destination_folder):
     dest = os.path.join(destination_path, file_path)
 
     # Move the file
-ls
-shutil.move(src, dest)
+    shutil.move(src, dest)
     print(f"Moved {file_path} → {destination_path}")
     
 
-
-# Executing / Testing
+# Run the bot on the target folder
 folder = "test_folder"
 for file in list_files(folder):
     move_file_to_subfolder(file, folder)
