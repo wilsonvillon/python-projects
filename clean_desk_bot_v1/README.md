@@ -38,8 +38,7 @@ test_folder/ ├── PDF_FILES/resume.pdf ├── JPG_FILES/photo.jpg ├─
 
 1. Drop your mixed files into the `test_folder` (or any folder of your choice)
 2. Update the folder name in `organizer.py`
-3. Run the script:
-   `python organizer.py`
+3. Run the script: `python organizer.py`
 
 ```bash
 🙋‍♂️ Author
