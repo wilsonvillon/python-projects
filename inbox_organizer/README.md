@@ -35,6 +35,7 @@ Finance:
 Invoice for April 2025
 
 Final payment reminder
+
 Expense report submission
 
 Meetings:
