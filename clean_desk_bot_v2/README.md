@@ -27,10 +27,6 @@
 **Before:**
 test_folder/ ├── photo.jpg ├── resume.pdf ├── installer.exe ├── design.psd ├── unknownfile.ai
 
-makefile
-Copy
-Edit
-
 **After:**
 test_folder/ ├── Images/photo.jpg ├── Documents/resume.pdf ├── Installers/installer.exe ├── Photoshop/design.psd ├── Other/unknownfile.ai
 
