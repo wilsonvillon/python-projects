@@ -48,8 +48,13 @@ responder_bot/
 - Add logging or time-stamped responses
 - Export matched responses to a file or database
 - Integrate with web-based interfaces or chat platforms
+```
 
-🙋‍♂️ Author
+---
 
-Created by Wilson Villon
-Python problem solver in training — focused on automation, AI, and web development.
+## 🙋‍♂️ Author
+
+Created by **Wilson Villon**  
+Python problem solver in training — focused on automation, AI, and real-world tools.
+
+---
