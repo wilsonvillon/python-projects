@@ -35,7 +35,6 @@ Finance:
 Invoice for April 2025
 
 Final payment reminder
-
 Expense report submission
 
 Meetings:
@@ -57,10 +56,6 @@ General:
 Client follow-up needed
 
 Upcoming project deadline
-
-yaml
-Copy
-Edit
 
 ---
 
