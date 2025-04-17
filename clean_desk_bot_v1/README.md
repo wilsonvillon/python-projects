@@ -28,17 +28,9 @@
 
 test_folder/ ├── resume.pdf ├── photo.jpg ├── document.txt
 
-makefile
-Copy
-Edit
-
 **After:**
 
 test_folder/ ├── PDF_FILES/resume.pdf ├── JPG_FILES/photo.jpg ├── TXT_FILES/document.txt
-
-yaml
-Copy
-Edit
 
 ---
 
@@ -47,10 +39,9 @@ Edit
 1. Drop your mixed files into the `test_folder` (or any folder of your choice)
 2. Update the folder name in `organizer.py`
 3. Run the script:
+   python organizer.py
 
 ```bash
-python organizer.py
-
 🙋‍♂️ Author
 Created by Wilson Villon
 Python problem solver in training — focused on automation, AI, and web development.
