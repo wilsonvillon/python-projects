@@ -25,12 +25,13 @@ def get_category(subject_line):
         "follow-up": "General",
         "report": "Finance",
         "deadline": "General"
-        }
+    }
 
     # Normalize subject line to lowercase for case-insensitive matching
     subject_line_lower = subject_line.lower()
 
     # Search for a keyword match
+    for keyword in subject_cat:
         if keyword in subject_line_lower:
             return subject_cat[keyword]
 
@@ -71,6 +72,7 @@ for subject in email_subjects:
 # Display the organized summary
 print("\nInbox Summary:")
 for category, subjects in grouped_emails.items():
-    print(f"{category}:")
+    subject_count = len(subjects)
+    print(f"{category}: ({subject_count})")
     for subject in subjects:
         print(f" - {subject}")
