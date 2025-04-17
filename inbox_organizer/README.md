@@ -1,7 +1,7 @@
 
-# Inbox Zero Bot 📬
+# Inbox Organizer Bot 📬
 
-**Inbox Zero Bot** is a Python automation script that simulates an intelligent email organizer. It reads a list of email subject lines, detects key terms, and groups them into categories such as `Finance`, `Meetings`, `Security`, and `General`. The output is a clean inbox summary that helps prioritize and sort messages based on their content.
+**Inbox Organizer Bot** is a Python automation script that simulates an intelligent email organizer. It reads a list of email subject lines, detects key terms, and groups them into categories such as `Finance`, `Meetings`, `Security`, and `General`. The output is a clean inbox summary that helps prioritize and sort messages based on their content.
 
 This project demonstrates the basics of text classification and grouping logic using Python—without the need for advanced libraries.
 
