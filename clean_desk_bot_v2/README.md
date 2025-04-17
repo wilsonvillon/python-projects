@@ -34,10 +34,6 @@ Edit
 **After:**
 test_folder/ ├── Images/photo.jpg ├── Documents/resume.pdf ├── Installers/installer.exe ├── Photoshop/design.psd ├── Other/unknownfile.ai
 
-yaml
-Copy
-Edit
-
 ---
 
 ## 🔧 How to Use
