@@ -38,7 +38,7 @@ test_folder/ ├── Images/photo.jpg ├── Documents/resume.pdf ├──
 2. Run the script: `python organizer.py`
 3. Check your folder to see everything automatically sorted into subfolders
 
-```bash
-🙋‍♂️ Author
-Created by Wilson Villon
-Python automation enthusiast, problem solver, and real-world tool builder.
+## 🙋‍♂️ Author
+
+Created by **Wilson Villon**  
+Python problem solver in training — focused on automation, AI, and real-world tools.
