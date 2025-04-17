@@ -1,5 +1,5 @@
 """
-Inbox Zero Bot
+Inbox Organizer Bot
 
 This script simulates an intelligent email organizer. It processes a list of 
 email subject lines, detects key terms, and categorizes each subject into folders 
