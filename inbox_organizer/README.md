@@ -28,7 +28,9 @@ This project demonstrates the basics of text classification and grouping logic u
 
 ## 🧪 Example Output
 
-Inbox Summary: Finance:
+Inbox Summary: 
+
+Finance:
 
 Invoice for April 2025
 
