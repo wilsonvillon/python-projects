@@ -35,12 +35,10 @@ test_folder/ ├── Images/photo.jpg ├── Documents/resume.pdf ├──
 ## 🔧 How to Use
 
 1. Place mixed files into the `test_folder/`
-2. Run the script:
+2. Run the script: `python organizer.py`
+3. Check your folder to see everything automatically sorted into subfolders
 
 ```bash
-python organizer.py
-Check your folder to see everything automatically sorted into subfolders
-
 🙋‍♂️ Author
 Created by Wilson Villon
 Python automation enthusiast, problem solver, and real-world tool builder.
