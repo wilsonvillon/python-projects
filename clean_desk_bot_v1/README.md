@@ -40,7 +40,11 @@ test_folder/ ├── PDF_FILES/resume.pdf ├── JPG_FILES/photo.jpg ├─
 2. Update the folder name in `organizer.py`
 3. Run the script: `python organizer.py`
 
-```bash
-🙋‍♂️ Author
-Created by Wilson Villon
-Python problem solver in training — focused on automation, AI, and web development.
+---
+
+## 🙋‍♂️ Author
+
+Created by **Wilson Villon**  
+Python problem solver in training — focused on automation, AI, and real-world tools.
+
+---
