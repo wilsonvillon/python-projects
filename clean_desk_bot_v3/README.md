@@ -55,7 +55,13 @@ bash
 Copy
 Edit
 python clean_desk_bot_v3.py
-🙋‍♂️ Author
-Created by Wilson Villon
-Python automation builder | Problem solver | Learning with purpose
+
+---
+
+## 🙋‍♂️ Author
+
+Created by **Wilson Villon**  
+Python problem solver in training — focused on automation, AI, and real-world tools.
+
+---
 
