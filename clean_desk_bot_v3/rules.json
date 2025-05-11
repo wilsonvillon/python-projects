@@ -1,0 +1,6 @@
+{
+    "Documents": ["pdf", "docx", "txt"],
+    "Images": ["jpg", "png", "gif"],
+    "Installers": ["exe", "msi"],
+    "Design": ["psd", "ai", "fig"]
+}
