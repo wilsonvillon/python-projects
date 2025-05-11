@@ -33,6 +33,10 @@
   "Installers": ["exe", "msi"],
   "Design": ["psd", "ai", "fig"]
 }
+```
+
+---
+
 🧪 Example Output
 lua
 Copy
@@ -58,10 +62,8 @@ python clean_desk_bot_v3.py
 
 ---
 
-## 🙋‍♂️ Author
+🙋‍♂️ Author
+Created by Wilson Villon
+Python automation builder | Problem solver | Learning with purpose
 
-Created by **Wilson Villon**  
-Python problem solver in training — focused on automation, AI, and real-world tools.
-
----
 
